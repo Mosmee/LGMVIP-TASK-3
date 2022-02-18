@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrollment Form</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Course Enrollment Form</h1>
+        </div>
+            <table border="1" frame="border" rules="NONE" style="margin-left: 32rem" >
+                <div class="miko">
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <tr>
+                            <td>
+                                <label>Name :</label></td>
+                                    <td><select id="mr">
+                                        <option value="Mr.">Mr.</option>
+                                        <option value="Mrs." >Mrs.</option>
+                                        <option value="Ms" >Ms</option>
+                                    </select>
+                                        <input type="text" placeholder="Enter your full name" id="Name">
+                            </td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td> <label>Course to enroll :</label>
+                            </td>
+                            <td>
+                                <select id="course1">
+                                        <option value="Data Science" id="Course">Data Science</option>
+                                        <option value="Web designing" id="Course">Web designing</option>
+                                        <option value="Software Development" id="Course"selected>Software Development</option>
+                                        <option value="Data Analyst"id="Course">Data Analyst</option>
+                                        <option value="Angular JS" id="Course">Angular JS</option>
+                                        <option value="React JS" id="Course">React JS</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                 <label>
+                                    Do You have any pre-requisite qualification?
+                                </label>
+                            </td>
+                            <td>
+                            
+                                <input type="radio" id="pre" name="abc" value="Yes">
+                                <label for="Yes">Yes</label>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                                <input type="radio" id="pre" name="abc" value="No">
+                                <label for="No">No</label>
+                            
+                            </td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>    
+                                <label> Gender :</label>
+                            </td>
+                            <td>  
+                                <select id="gender">
+                                    <option value="Male" id="Male">Male</option>
+                                    <option value="Female" id="Female">Female</option>
+                                    <option value="Other" id="Other">Other</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td>  
+                                <label>Date of Birth :</label>
+                            </td>
+                            <td> <input type="date" id="date">
+                            </td>       
+                        </tr>
+                    </div>
+                    <div>
+                        <tr>
+                            <td> 
+                                <label>E-mail Address :  </label></td>
+                            <td>  
+                                <input type="email" placeholder="abc@example.com" id="email" > 
+                            </td>
+                        </tr> 
+                    </div>
+                    <div>
+                        <tr>
+                            <td>
+                                <label>Phone Number :</label>
+                            </td>
+                            <td>
+                                <input type="tel" maxlength="10" id="phone" name="phone" >
+                            </td>
+                        </tr>
+                    </div>
+                    <div class="form-action-button">
+                        <tr>
+                            <td> </td>
+                            <td> <input type="submit" value="Submit"></td>
+                        </tr>
+                    </div>
+                </form>
+            </div>    
+                <table  border="1" frame="box" rules="NONE"class="list" id="cousreList" >
+                    <thead>
+                        <tr >
+                            <th></th>
+                            <th>Name</th>
+                            <th>Course to enroll</th>
+                            <th>pre-requisite qualification</th>
+                            <th>Gender</th>
+                            <th>Date of birth</th>
+                            <th>E-mail address</th>
+                            <th>Phone Number</th>
+                         </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+</div>
+<script src="js/scrpit.js"></script>
+</body>
+</html>

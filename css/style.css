@@ -1,0 +1,100 @@
+@media only screen and (max-width: 600px)
+{body{
+    margin: 0;
+    padding:0;  
+     
+}}
+.header{
+    margin-left: 42%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0e0d0d;
+}
+body>table{
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 8px 10px 3px #aaaaaa;
+}
+table.list{
+    width: 98%;
+    margin-top: 5rem;
+    margin-left: 10px;
+}
+td,th{
+    text-align: left;
+    padding: 10px;    
+}
+tr{
+     background-image: linear-gradient( to right, #020024,#00d4ff); 
+}
+input[type=text], input[type=tel]{
+    padding: 9px 9px;
+    display: inline-block;
+    margin: 8px 0;
+    border: 1px solid white ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+input[type=email],input[type=date]{
+    padding: 9px 9px;
+    display: inline-block;
+    margin: 8px 0;
+    border: 1px solid white ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#gender{
+    padding: 9px 9px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#mr{
+    padding: 9px 9px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#course1{
+    padding: 9px 9px;
+    border-radius: 4px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+input[type=submit]{
+    width: 30%;
+    background-color:rgb(255, 255, 255);
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+form div.form-action-button{
+    text-align: right;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-left: 4px;
+}
+label.validation-error{
+    color: red;
+    margin-left: 5px;
+}
+.hide{
+    display: none;
+}
